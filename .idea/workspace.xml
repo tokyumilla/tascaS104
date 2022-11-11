@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5350cf-6ba8-4f3c-b18b-9396b6c59651" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/n1exercici2/CalculoDNI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/n1exercici2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/n1exercici2/CalculoDNITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/n1exercici2/CalculoDNI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/n1exercici2/CalculoDNI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,10 +54,42 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="n1exercici2" />
       <recent name="n1exercici1.test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculoDNITest">
+    <configuration name="CalculoDNITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tascaS104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="n1exercici2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="n1exercici2" />
+      <option name="MAIN_CLASS_NAME" value="n1exercici2.CalculoDNITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculoDNITest.testCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tascaS104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="n1exercici2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="n1exercici2" />
+      <option name="MAIN_CLASS_NAME" value="n1exercici2.CalculoDNITest" />
+      <option name="METHOD_NAME" value="testCharacters(int,char)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tascaS104" />
       <extension name="coverage">
@@ -75,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculoDNITest" />
+        <item itemvalue="JUnit.CalculoDNITest.testCharacters" />
         <item itemvalue="JUnit.YearTest" />
       </list>
     </recent_temporary>
@@ -88,6 +122,34 @@
       <option name="presentableId" value="Default" />
       <updated>1668095900968</updated>
     </task>
+    <task id="LOCAL-00001" summary="SWITCH O ARRAYS">
+      <created>1668185202922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668185202922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SWITCH O ARRAYS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SWITCH O ARRAYS" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/n1exercici2/CalculoDNITest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/n1exercici2/CalculoDNITest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

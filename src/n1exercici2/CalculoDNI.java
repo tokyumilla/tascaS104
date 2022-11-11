@@ -7,60 +7,32 @@ import java.util.List;
 public class CalculoDNI {
     private int number;
     private char character;
-    private final List<char> characterList = new ArrayList<>(Arrays.asList('T', 'R' ))
 
     public CalculoDNI(int number) {
-        this.number = number;
-        int module = number% 23;
-        switch (module) {
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-            case 0:
-                this.character = 'R';
-                break;
-
+        if (((int) (Math.log10(number) +1)) == 8) {
+            this.number = number;
+            int module = number% 23;
+            List<Character> characterList = new ArrayList<>(Arrays.asList('T', 'R',
+                    'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L',
+                    'C', 'K', 'E'));
+            this.character = characterList.get(module);
         }
+        else {
+            System.out.println("Número incorrecto, introduzca un número de 8 cifras");
+        }
+
     }
 
+    public int getNumber() {
+        return number;
+    }
+
+    public char getCharacter() {
+        return character;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
 
 }
